@@ -1,0 +1,48 @@
+html body {
+  font-family: 'Oswald', sans-serif;
+}
+
+.txt-cstm {
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+.top-content {
+  background-image: url("/assets/bg-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-hitam {
+  background: black;
+}
+
+.pb-cstm {
+  padding-bottom: 250px;
+}
+
+.bingkai-2 {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+  z-index: 1;
+  -webkit-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+}
+
+.bingkai:hover .bingkai-2 {
+  background: rgba(0, 0, 0, 0.493);
+}
+
+.my-txt {
+  opacity: 0;
+  -webkit-transition: all ease-in-out .5s;
+  transition: all ease-in-out .5s;
+}
+
+.bingkai:hover .my-txt {
+  opacity: 1;
+}
+/*# sourceMappingURL=style.css.map */
