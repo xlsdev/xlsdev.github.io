@@ -1,6 +1,7 @@
 html {
   body {
     font-family: 'Oswald', sans-serif;
+    background: black;
   }
 }
 
@@ -10,9 +11,10 @@ html {
 
 .bg-black {
   background: black;
+  transition: all ease-in-out .3s;
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
   color: #ffc107!important;
   font-weight: bold;
 }
@@ -26,4 +28,45 @@ html {
 
 hr {
   border-top: 1px solid rgba(0, 0, 0, 0.897);
+}
+
+.bg-black-2 {
+  background: black;
+  transition: all ease-in-out .3s;
+}
+
+.second {
+  background-image:  url(../assets/ux.png);
+  background-position: bottom center;
+  background-size: cover;
+  height: 75vh;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255,255,255,.5);
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.main-txt-pt {
+  padding-top: 200px;
+}
+
+.h2-cstm {
+  font-size: 1rem;
+}
+
+.h6-cstm {
+  font-size: .8rem;
+}
+
+@media (min-width: 992px) {
+  .bg-black-2 {
+    background: rgb(0, 0, 0);
+  }
+  .h2-cstm {
+    font-size: 2rem;
+  }
+  .h6-cstm {
+    font-size: 1rem;
+  }
 }
