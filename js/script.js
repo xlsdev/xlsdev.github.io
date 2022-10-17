@@ -10,7 +10,7 @@ $(document).ready(function(){
   })
 
   $('.navbar-toggler').click(function(){
-    $('.navbar').removeClass('bg-trasnparent').toggleClass('bg-black');
+    $('.navbar').removeClass('bg-trasnparent').toggleClass('bg-black-2');
   });
 
 });

@@ -19,6 +19,13 @@ html {
   font-weight: bold;
 }
 
+.nav-link {
+  transition: all ease-in-out .3s;
+}
+.nav-link:hover {
+  color: #ffc107!important;
+}
+
 .carousel-caption {
   right: 0;
   bottom: 0;
@@ -31,7 +38,7 @@ hr {
 }
 
 .bg-black-2 {
-  background: black;
+  background: rgba(0, 0, 0, 0.797);
   transition: all ease-in-out .3s;
 }
 
@@ -66,7 +73,7 @@ hr {
 
 @media (min-width: 992px) {
   .bg-black-2 {
-    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.797);
   }
   .h2-cstm {
     font-size: 2rem;
