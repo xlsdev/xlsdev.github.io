@@ -1,16 +1,15 @@
 html body {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   background: black;
 }
 
 .txt-cstm {
-  font-family: 'Shadows Into Light Two', cursive;
+  font-family: "Shadows Into Light Two", cursive;
 }
 
 .bg-black {
   background: black;
-  -webkit-transition: all ease-in-out .3s;
-  transition: all ease-in-out .3s;
+  transition: all ease-in-out 0.3s;
 }
 
 .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
@@ -31,8 +30,7 @@ hr {
 
 .bg-black-2 {
   background: black;
-  -webkit-transition: all ease-in-out .3s;
-  transition: all ease-in-out .3s;
+  transition: all ease-in-out 0.3s;
 }
 
 .second {
@@ -56,12 +54,17 @@ hr {
 }
 
 .h6-cstm {
-  font-size: .8rem;
+  font-size: 0.8rem;
+}
+
+.bg-trasnparent {
+  background: transparent;
+  transition: all ease-in-out 0.3s;
 }
 
 @media (min-width: 992px) {
   .bg-black-2 {
-    background: black;
+    background: rgb(0, 0, 0);
   }
   .h2-cstm {
     font-size: 2rem;
@@ -69,5 +72,4 @@ hr {
   .h6-cstm {
     font-size: 1rem;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
