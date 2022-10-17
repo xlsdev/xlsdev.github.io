@@ -71,6 +71,14 @@ hr {
   transition: all ease-in-out .3s;
 }
 
+.fab-color {
+  color: white!important;
+  transition: all ease-in-out .3s;
+}
+.fab-color:hover {
+  color: #ffc107!important;
+}
+
 @media (min-width: 992px) {
   .bg-black-2 {
     background: rgba(0, 0, 0, 0.797);
