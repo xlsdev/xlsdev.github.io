@@ -48,6 +48,13 @@ hr {
   height: 75vh;
 }
 
+.progress {
+  background-image: url(../assets/projectPage.png);
+  background-position: bottom center;
+  background-size: cover;
+  height: 75vh;
+}
+
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
   border-color: rgba(255, 255, 255, 0);
