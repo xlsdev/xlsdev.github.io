@@ -52,7 +52,7 @@ hr {
   background-image: url(../assets/projectPage.png);
   background-position: bottom center;
   background-size: cover;
-  height: 75vh;
+  height: 125vh;
 }
 
 .navbar-dark .navbar-toggler {
@@ -62,6 +62,10 @@ hr {
 
 .main-txt-pt {
   padding-top: 200px;
+}
+
+.main-txt-pt-2 {
+  padding-top: 100px;
 }
 
 .h2-cstm {
@@ -95,5 +99,14 @@ hr {
   }
   .h6-cstm {
     font-size: 1rem;
+  }
+  .main-txt-pt-2 {
+    padding-top: 200px;
+  }
+  .progress {
+    background-image: url(../assets/projectPage.png);
+    background-position: bottom center;
+    background-size: cover;
+    height: 75vh;
   }
 }/*# sourceMappingURL=style.css.map */
